@@ -1,0 +1,232 @@
+body {
+    font-size: 18px;
+    font-family: "Lato";
+    background-color: rgba(128, 0, 0, 0.3);
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#tables {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    width: 70%;
+    height: 80%;
+    color: white;
+}
+
+#tables > div > button {
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 15px;
+}
+
+#tables > div > button:hover {
+    opacity: 0.7;
+}
+
+#tables > div > button:focus, #tables > div > button:active {
+    filter: brightness(0.6);
+    transform: scale(0.92);
+}
+
+.couch {
+    position: absolute;
+    left: 6%;
+    bottom: 21%;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.window {
+    position: absolute;
+    left: 15%;
+    bottom: 23%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dessert {
+    position: absolute;
+    left: 30%;
+    bottom: 41%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bakery {
+    position: absolute;
+    left: 34%;
+    bottom: 41%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wok {
+    position: absolute;
+    right: 29%;
+    top: 43%;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.sushi {
+    position: absolute;
+    right: 29%;
+    bottom: 43%;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.beverage {
+    position: absolute;
+    right: 8%;
+    top: 29%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.kitchen {
+    position: absolute;
+    right: 5.5%;
+    bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.annexTop {
+    position: absolute;
+    right: 6%;
+    bottom: 12%;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.annexBottom {
+    position: absolute;
+    right: 6%;
+    bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+#annexTop-1, #annexBottom-1  {
+    margin-right: 55px;
+}
+
+#annexTop-10, #annexBottom-10 {
+    margin-left: 55px;
+}
+
+.card {
+    margin: 60px auto;
+    width: 40% !important;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.card-container {
+    position : relative;
+    width : 1100px;
+    display : flex;
+    margin: auto;
+    align-items : center;
+    justify-content : center;
+    flex-warp : warp;
+    cursor: pointer;
+}
+
+.card-container .card {
+  position: relative;
+  height : 150px;
+  padding: 20px;
+  background-color : #fff;
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 1.5s ease-out;
+  border-radius : 15px;
+}
+
+.card-container:hover .card {
+  width: 75% !important;
+  opacity: 0.9;
+}
+
+.card-container:hover .card-left {
+    transform: translateX(-180px);
+}
+
+.card-container:hover .card-right {
+    transform: translateX(180px);
+}
+
+.card-container:focus .card, .card-container:active .card {
+    filter: brightness(0.8);
+}
+
+.image {
+    position: absolute;
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    filter: brightness(0.45);
+    transition: 1.5s ease-out;
+}
+
+.image img {
+  max-width: 350px;
+  max-height: 350px;
+  border-radius : 15px;
+}
+
+.card-container:hover .image {
+    filter: brightness(1);
+}
+
+.card-container:hover .slide-left {
+    transform: translateX(-460px);
+}
+
+.card-container:hover .slide-right {
+    transform: translateX(460px);
+}
+
+.card-container .card .content {
+  position : relative;
+  color : #111;
+  text-align : center;
+  visibility : hidden;
+  opacity : 0;
+  transition : opacity 0.3s ease-in-out;
+    
+}
+
+.card-container .card:hover .image {
+    opacity: 1;
+    filter: brightness(1);
+}
+
+.card-container:hover .content {
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+   z-index: 999;
+}
+
+.card-container:hover .hidden {
+    display: none;
+}
