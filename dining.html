@@ -13,7 +13,47 @@
                 <img src="img/floor-plan.png" alt="floor-plan" usemap="#tables"/>
                 <div id="tables"></div>
             </div>
-            <div class="card-container">
+            <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div id="close">&times;</div>
+                <div id="modal-sub-content">
+                    <p class="fs-3 fw-bold text-center" id="modal-title">Reserve?</p>
+                    <div class="d-flex justify-content-center p-4">
+                        <div class="d-flex justify-content-center gap-5" id="clock">
+                            <div class="block" id="container-hour">
+                                <ul data-current="0" id="hour">
+                                    <b>Hour</b>
+                                </ul>
+                            </div>
+                            <div class="block" id="container-time">
+                                <b>Minute</b>
+                                <ul data-current="0" id="time">
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="modal-buttons">
+                            <button class="modal-button bg-success text-white" id="modal-yes">Yes</button>
+                            <button class="modal-button bg-danger text-white" id="modal-no">No</button>
+                        </div>
+                    </div>
+                    <div class="range" id="modal-range">
+                        <div class="sliderValue">
+                            <span>45</span>
+                        </div>
+                        <div class="field">
+                            <div class="value left">0</div>
+                            <input type="range" min="0" max="90" value="45" steps="1" id="slider">
+                            <div class="value right">90</div>
+                        </div>
+                    </div>
+                    <div class="text-center p-3" id="time-button">
+                        <button class="modal-button bg-success text-white">Next</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="card-container">
                 <div class="image slide-left m-auto">
                     <img src="img/latin.png" class="card-img-top" alt="Latin">
                 </div>
