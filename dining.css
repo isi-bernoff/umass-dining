@@ -409,3 +409,7 @@ ul {
   .range input::-moz-range-progress{
     background: green;
   }
+
+  #order-list {
+    display: none;
+  }

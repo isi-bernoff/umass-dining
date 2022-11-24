@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link href="dining.css" rel="stylesheet">
+        <script type="text/javascript" src="confirmation.js" defer></script>
+        <title>UMass Dining</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+                <div class="bg-white w-50 m-auto mt-5 pb-5 rounded-2 pt-5">
+                    <p class="fs-3 fw-bold text-center" id="modal-title">Select your pick up time</p>
+                    <div class="d-flex justify-content-center p-4">
+                        <div class="d-flex justify-content-center gap-5" id="clock">
+                            <ul style="list-style-type: circle;" id="order-list" class="fs-4">
+                                <li>
+                                    Peanut butter jelly sandwich
+                                </li>
+                                <li>
+                                    Chocolate milk
+                                </li>
+                                <li>
+                                    Doritos Nacho Cheese Flavored Chips
+                                </li>
+                            </ul>
+                            <div class="block d-block" id="container-hour">
+                                <ul data-current="0" id="hour">
+                                    <b>Hour</b>
+                                </ul>
+                            </div>
+                            <div class="block d-block" id="container-time">
+                                <b>Minute</b>
+                                <ul data-current="0" id="time">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center p-3 d-block" id="time-button">
+                        <button class="modal-button bg-success text-white">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
