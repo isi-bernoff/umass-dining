@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  display: block;
+  font-family: 'Oswald';
+}
+
+head {
+  display: none;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+}
+
+main {
+  display: block;
+  margin: auto;
+  width: 300px;
+}
+
+fieldset {
+  display: block;
+  width: 300px;
+}
+
+ul {
+  padding: 0;
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+header {
+  background-color: #881c1c;
+  text-align: center;
+  width: 100%;
+}
+
+legend {
+  font-size: 30px;
+}
+
+aside {
+  position: fixed;
+  top: 69px;
+  right: 300px;
+  display: inline-block;  
+  padding: 10px;
+  border: 5px groove #c69214;
+  font-size: 20px;
+}
+
+input {
+  vertical-align: middle;
+  display: block;
+}
+
+label, input {
+  display: inline;
+}
+li {
+  display: block;
+}
+
+aside input[type="checkbox"] {
+  accent-color: #c69214;
+  vertical-align: middle;
+  display: inline;
+}
+
+button {
+  margin: 15px 0;
+  font-size: 20px;
+  font-family: Verdana;
+  text-decoration: none;
+}
