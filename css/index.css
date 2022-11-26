@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  display: block;
+  color: white;
+  font-family: 'Oswald';
+}
+
+head {
+  display: none;
+}
+
+body {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ), url("../img/background.jpg");
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+main a {
+  display: inline-block;
+}
+
+header {
+  background-color: #881c1c;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+section {
+  width: 350px;
+  height: 182px;
+  padding: 5px;
+  margin: 40px;
+  display: inline-block;
+}
+
+section ul {
+  font-size: 20px;
+  padding: 0;
+}
+
+#berkshire {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ), url("../img/berkshire.jpg");
+  background-size: contain;
+}
+
+#worcester {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ), url("../img/worcester.jpg");
+  background-size: contain;
+}
+
+#franklin {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ),url("../img/franklin.jpg");
+  background-size: contain;
+}
+
+#hampshire {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ),url("../img/hampsire.jpg");
+  background-size: contain;
+}
