@@ -68,7 +68,7 @@ li {
   display: block;
 }
 
-aside input[type="checkbox"] {
+aside input {
   accent-color: #c69214;
   vertical-align: middle;
   display: inline;
