@@ -13,8 +13,4 @@ window.onload = () => {
       checkboxes.forEach(checkbox => checkbox.disabled = false);
     }
   });
-
-  order.addEventListener('onclick', e => {
-    window.location.href('../html/confirmation.html');
-  });
 }
