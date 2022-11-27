@@ -413,3 +413,14 @@ ul {
   #order-list {
     display: none;
   }
+
+  .change-color {
+    animation: changeColor 3s infinite;
+  }
+
+  @keyframes changeColor {
+    0% {background-color: black;}
+    50% {background-color: #363030;
+    opacity: 0.8;}
+    100% {background-color: black;}
+  }
