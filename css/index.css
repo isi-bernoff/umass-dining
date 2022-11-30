@@ -10,11 +10,7 @@ head {
 }
 
 body {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.4), 
-    rgba(0, 0, 0, 0.4)
-  ), url("../img/background.jpg");
-  background-size: cover;
+  background-color: white;
   width: 100%;
   text-align: center;
 }
@@ -54,32 +50,32 @@ section ul {
 
 #berkshire {
   background: linear-gradient(
-    rgba(0, 0, 0, 0.4), 
-    rgba(0, 0, 0, 0.4)
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
   ), url("../img/berkshire.jpg");
   background-size: contain;
 }
 
 #worcester {
   background: linear-gradient(
-    rgba(0, 0, 0, 0.4), 
-    rgba(0, 0, 0, 0.4)
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
   ), url("../img/worcester.jpg");
   background-size: contain;
 }
 
 #franklin {
   background: linear-gradient(
-    rgba(0, 0, 0, 0.4), 
-    rgba(0, 0, 0, 0.4)
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
   ),url("../img/franklin.jpg");
   background-size: contain;
 }
 
 #hampshire {
   background: linear-gradient(
-    rgba(0, 0, 0, 0.4), 
-    rgba(0, 0, 0, 0.4)
+    rgba(0, 0, 0, 0.6), 
+    rgba(0, 0, 0, 0.6)
   ),url("../img/hampsire.jpg");
   background-size: contain;
 }
