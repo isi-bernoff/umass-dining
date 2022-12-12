@@ -1,3 +1,8 @@
+* {
+  color: white;
+  font-family: 'Oswald';
+}
+
 body {
     font-size: 18px;
     font-family: "Lato";
@@ -24,6 +29,19 @@ ul {
     list-style-type: none;
 }
 
+header {
+  background-color: #881c1c;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+
+h1 {
+  width: 100%;
+  margin: 0;
+  display: block;
+}
 
 #tables {
     position: absolute;
